@@ -29,6 +29,10 @@ h1{
   flex-wrap: wrap;
 }
 
+div.sketchThumbs img {
+  max-height: 50px;
+}
+
 ul{
 	list-style: none;
 }
