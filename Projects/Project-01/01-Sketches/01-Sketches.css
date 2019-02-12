@@ -23,6 +23,11 @@ h1{
 	padding: 50px;
 }
 
+.sketchThumbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 ul{
 	list-style: none;
