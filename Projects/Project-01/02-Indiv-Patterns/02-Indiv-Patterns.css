@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 body{
@@ -14,6 +14,7 @@ h1{
 	margin: 20px;
 	font-size: 3em;
 	font-style: bold;
+	margin-top: 60px;
 }
 
 .main{
@@ -22,6 +23,16 @@ h1{
 	padding: 50px;
 }
 
+.sketchThumbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.sketchThumbs img {
+  max-height: 150px;
+  min-height: 75px;
+}
 
 ul{
 	list-style: none;
@@ -39,5 +50,73 @@ a:link{
 a:hover{
 	text-decoration: underline;
 }
+
+/*CSS for Pattern 1*/
+  .pointer {
+      width: 200px;
+      height: 40px;
+      position: relative;
+      background: #ff000069;
+    }
+    .pointer:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+	   border-left: 50px solid #047D78;
+      border-top: 20px solid #2CC9C4;
+      border-bottom: 20px solid #ff8e5169;
+    }
+    .pointer:before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 50px solid #047D78;
+      border-top: 20px solid #2CC9C4;
+      border-bottom: 20px solid #FF8E51;
+    }
+
+    .row {
+    	display: flex;
+		flex-direction: row;
+    }
+
+/*CSS for Pattern 2*/
+	.triangle-topleft {
+	      width: 0;
+	      height: 0;
+	      border-top: 80px dotted #0000ffb3;
+	      border-right: 80px dotted #ff9900c2;
+	    }
+	  
+	.row-pattern2 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+/*CSS for Pattern 3*/
+	.triangle-bottomleft {
+      width: 0;
+      height: 0;
+      border-top: 80px double #0C7D76;
+      border-right: 80px double #00C9BC;
+      background: #d20cb4c7;
+    }
+
+/*CSS for Pattern 4*/
+	.circle {
+      width: 87px;
+	    height: 25px;
+	    border-top: 42px double #127b96c7;
+	    border-bottom: 42px ridge #c92c61cf;
+	    border-radius: 25%;
+    }	    
 
 
