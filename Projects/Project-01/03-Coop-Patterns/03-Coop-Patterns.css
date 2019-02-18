@@ -40,4 +40,110 @@ a:hover{
 	text-decoration: underline;
 }
 
+/*Co-op Pattern 1 - Expanded from Kaiwen Liu*/
+#scrolling-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+#vertical-container {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+.vertical-lines {
+	width: 45px;
+    height: 1000px;
+    background-color: #09B299 /*#bcd4d2*/;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+#horizontal-container {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+.horizontal-lines {
+	width: 100%;
+    height: 35px;
+    background-color: #FF00FF /*#ff000066*/;
+    opacity: 0.5;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.horizontal-lines2 {
+	width: 100%;
+    height: 35px;
+    background-color: #FFCE19 /*lightyellow*/;
+    opacity: 0.5;
+    margin-top: 40px;
+    mix-blend-mode: multiply;
+}
+ 
+/*Co-op Pattern 2 - Expanded from Jenn Jiang*/
+
+#background-circles {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    /*background-color: black /*#FFFF00*/
+    padding: 0px;
+    border-style: double;
+    border-color: black;
+    border-width: 70px;
+}
+
+#top-circles {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    top:0;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.t-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    /*background-color: white /*#4351FF*/
+    padding: 0px;
+    border-style: double;
+    border-color: white;
+    border-width: 70px;
+}
+
+   
