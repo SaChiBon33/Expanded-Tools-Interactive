@@ -160,13 +160,36 @@ a:hover{
 
   
 
-/*CSS for Pattern 4*/
-	.circle {
+/*CSS for Pattern 4*/ 
+
+.circle {
       width: 87px;
-	    height: 25px;
-	    border-top: 42px double #127b96c7;
-	    border-bottom: 42px ridge #c92c61cf;
-	    border-radius: 25%;
-    }	    
+      height: 25px;
+      border-top: 42px double #127b96c7;
+      border-bottom: 42px ridge #c92c61cf;
+      border-radius: 25%;
+      background: white;
+    }   
 
+  #background-layer-pattern4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+  }  
 
+  .bg-rect-p4 {
+      width: 100%;
+      height: 40px;
+      background: #efde1b;
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-right: 60px;
+      margin-bottom: 30px;
+    }   
