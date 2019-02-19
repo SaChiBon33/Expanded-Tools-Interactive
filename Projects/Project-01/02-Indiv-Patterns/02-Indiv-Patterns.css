@@ -95,7 +95,7 @@ a:hover{
         margin: 10px;
 	    }
 	  
-	/*.row-pattern2 {
+	.row-pattern2 {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -106,7 +106,7 @@ a:hover{
     left: 0;
 	}
 
-  #lines-background {
+  /*#lines-background {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -146,6 +146,8 @@ a:hover{
     height: 100%;
     justify-content: center;
     position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .triangle-bottomleft {
