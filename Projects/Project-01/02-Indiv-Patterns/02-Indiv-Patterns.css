@@ -143,6 +143,7 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
   }
 
   .triangle-bottomleft {
