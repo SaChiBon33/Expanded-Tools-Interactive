@@ -90,6 +90,7 @@ a:hover{
       border-top: 80px double #0C7D76;
       border-right: 80px double #00C9BC;
       background: #d20cb4c7;
+      opacity: .8;
       -webkit-animation-play-state:paused;
       -moz-animation-play-state:paused;
       -o-animation-play-state:paused;

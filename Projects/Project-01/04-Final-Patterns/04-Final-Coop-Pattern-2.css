@@ -123,6 +123,17 @@ a:hover{
     border-width: 70px;
 }
 
+.bg-circle:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black; /*#FFFF00*/
+    padding: 0px;
+    border-style: double;
+    border-color: black;
+    border-width: 70px;
+}
 
 #top-circles {
     position: fixed;
