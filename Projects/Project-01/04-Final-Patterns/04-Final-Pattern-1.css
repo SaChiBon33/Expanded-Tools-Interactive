@@ -47,9 +47,11 @@ a:hover{
   font-weight: bold;
   font-style: italic;
   position: fixed;
-  padding: 0;
+  padding: 1px;
+  padding-right:1.5px;
   margin:0;
   pointer-events:none;
+  border:1px solid white;
 }
 
 #scrolling-container {
