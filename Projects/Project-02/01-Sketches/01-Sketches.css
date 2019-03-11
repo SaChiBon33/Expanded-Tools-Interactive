@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: sans-serif;
+	line-height: 1.5em;
+	background:white;
+	font-size: 1em;
+}
+
+h1{
+	margin: 20px;
+	font-size: 3em;
+	font-style: bold;
+	margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main{
+	width: 80%;
+	margin: 100px auto;
+	padding: 50px;
+}
+
+.sketchThumbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.sketchThumbs img {
+  max-height: 150px;
+  min-height: 75px;
+}
+
+ul{
+	list-style: none;
+}
+ 
+ul li{
+	color: #dadada;
+}
+
+a:link{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+div.sketchHolder {
+  margin: 80px;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
