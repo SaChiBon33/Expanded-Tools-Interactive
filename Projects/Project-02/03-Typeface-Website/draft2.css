@@ -196,14 +196,7 @@ ul li{
 	color: #dadada;
 }
 
-a:link{
-	color: #0000ff;
-	text-decoration: none;
-}
 
-a:hover{
-	text-decoration: underline;
-}
 
 div.sketchHolder {
   margin: 80px;
