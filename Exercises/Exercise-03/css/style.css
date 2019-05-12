@@ -1,0 +1,325 @@
+@import url();
+
+body {
+	background-color: blue;
+}
+
+/* Text
+-------------------------------------------------- */
+
+ .game-over {
+    visibility: hidden;
+  }
+
+
+/* Image
+-------------------------------------------------- */
+ .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      transition: left 0.5s; 
+    }
+.pacman-track {
+	margin-top: 210px;
+	position: fixed;
+}
+
+.square-grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 10px;
+	overflow: hidden;
+	position: fixed;
+	margin-top:265px;
+}
+
+
+.squares {
+	background: beige;
+  	width: 10px;
+  	height: 10px;
+  	margin-left: 80px;
+}
+
+
+
+
+/* iPad - not working, Joanna says OK to delete
+-------------------------------------------------- */
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* text */
+
+
+  /* image */
+
+/*} */
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 1500px) {
+
+  /* text */
+ .game-over {
+    visibility: hidden;
+  }
+
+  /* image */
+   .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid #FFEF02;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      margin-left: 110px;
+      transition: left 0.5s; 
+    }
+
+    #square1 {
+    	visibility:hidden;
+    }
+}
+
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 1400px) {
+
+  /* text */
+ .game-over {
+    visibility: hidden;
+  }
+ 
+  /* image */
+  .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      margin-left: 220px;
+      transition: left 0.5s; 
+    }
+
+   #square1 {
+    	visibility:hidden;
+    }
+    
+    #square2 {
+    	visibility:hidden;
+    } 
+}
+
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+
+  /* text */
+ .game-over {
+    visibility: hidden;
+  }
+ 
+  /* image */
+  .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid #FFEF02;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      margin-left: 330px;
+      transition: left 0.5s; 
+    }
+
+   #square1 {
+    	visibility:hidden;
+    }
+    
+    #square2 {
+    	visibility:hidden;
+    } 
+
+    #square3 {
+    	visibility:hidden;
+    } 
+
+}
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+
+  /* text */
+ .game-over {
+    visibility: hidden;
+  }
+
+  /* image */
+  .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      margin-left: 440px;
+      transition: left 0.5s; 
+    }
+
+   #square1 {
+    	visibility:hidden;
+    }
+    
+    #square2 {
+    	visibility:hidden;
+    } 
+
+    #square3 {
+    	visibility:hidden;
+    } 
+
+    #square4 {
+    	visibility:hidden;
+    } 
+}
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+
+  /* text */
+ .game-over {
+    visibility: hidden;
+  }
+
+  /* image */
+  .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid #FFEF02;
+      border-top: 60px solid #FFEF02;
+      border-left: 60px solid #FFEF02;
+      border-bottom: 60px solid #FFEF02;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      margin-left: 550px;
+      transition: left 0.5s; 
+    }
+
+   #square1 {
+    	visibility:hidden;
+    }
+    
+    #square2 {
+    	visibility:hidden;
+    } 
+
+    #square3 {
+    	visibility:hidden;
+    } 
+
+    #square4 {
+    	visibility:hidden;
+    } 
+
+    #square5 {
+    	visibility:hidden;
+    } 
+
+    #square6 {
+    	visibility:hidden;
+    } 
+}
+
+/* Mobile 
+-------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+
+  /* text */
+   .game-over {
+    visibility: visible;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color:red;
+  }
+
+  @keyframes flash {
+  from {color: red;}
+  to {color: yellow;}
+}
+
+
+  /* image */
+  .pacman {
+      visibility: hidden;
+    }
+
+   #square1 {
+      visibility:hidden;
+    }
+    
+    #square2 {
+      visibility:hidden;
+    } 
+
+    #square3 {
+      visibility:hidden;
+    } 
+
+    #square4 {
+      visibility:hidden;
+    } 
+
+    #square5 {
+      visibility:hidden;
+    } 
+
+    #square6 {
+      visibility:hidden;
+    } 
+
+}
+

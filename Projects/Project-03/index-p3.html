@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project 3 Republish a Text</title>
+		<link rel="stylesheet" href="p3.css">
+
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<script>
+			$(function(){
+
+				$(document).ready(function(){
+				  $("#hide").click(function(){
+				    $("p").hide();
+				  });
+				  $("#show").click(function(){
+				    $("p").show();
+				  });
+				});
+
+				$('.box').draggable();
+
+				$('.draggable2').draggable();
+
+				$('.block').draggable();
+			});
+
+		</script>
+
+	</head>
+
+
+	<body>
+
+	<div class="container">
+
+		<div class="imageStack">
+
+			<div class=box>
+				<img src="images/shellmound.jpg">
+				<div class="photocredit">(Photo from Nelson's report "Shellmounds of the San Francisco Bay Region.")</div>
+				<div class="caption"><strong>1909</strong> A photo of a shellmound in San Rafael, captured by N.C. Nelson during his research. Shellmounds transformed the flatland areas near the California coast into gently rolling hills of great cultural significance over the course of thousands of years.</div>				
+			</div>
+
+			<div class=box>
+				<img src="images/Shell-Mounds-in-SF-Bay.jpg">
+				<div class="photocredit">(Photo courtesy of Stanford's CESTA Spatial History Project)</div>
+				<div class="caption"><strong>1909</strong> Archaeologist N.C. Nelson published this map in the early 20th century showing over 400 shellmounds along the shores of the Bay Area. It is believed that only four of these can still be seen today.</div>				
+			</div>
+
+
+			<div class=box>
+				<img src="images/shellmoundDestruction.jpg">
+				<div class="photocredit">(Photo courtesy of the Phoebe A. Hearst Museum of Anthropology and Regents of the University of California)</div>
+				<div class="caption"><strong>1924</strong> Demolition of the Emeryville Shellmound to make way for a paint factory. Many Bay Area shellmounds have been demolished for urban development throughout the past century.</div>				
+			</div>
+
+			<div class=box id=shortbox1>
+				<img src="images/zoning.jpg">
+				<div class="photocredit">(Photo from West Berkeley Investors' plan for 1900 Fourth St. development)</div>
+				<div class="caption"><strong>2015</strong> A sample image from a rezoning request from recent years that would make it possible to build commercial and residential spaces on top of the West Berkeley shellmound site. The site is currently protected in small part by its status as a historic landmark.</div>				
+			</div>
+
+			<div class=box>
+				<img src="images/buildingprop.jpg">
+				<div class="photocredit">(Photo from West Berkeley Investors' plan for 1900 Fourth St. development)</div>
+				<div class="caption"><strong>2017</strong> A sample image showing the proposed building plans for 1900 Fourth St., which is also the site of the West Berkeley shellmound. Though project proposals have been rejected by the city up until this point, pressure by land developers is constant and efforts to protect the shellmound site are ongoing.</div>				
+			</div>
+
+			<div class=box id="shortbox2">
+				<img src="images/MapSatellite.jpg">
+				<div class="photocredit">(Photo from Google Maps Satellite)</div>
+				<div class="caption"><strong>2019</strong> Currently, the West Berkeley shellmound site is situated under a parking lot. Plans for this site are currently under debate.</div>				
+			</div>
+			
+	
+		</div>
+
+		
+		<div class="textblock">
+
+			<div>
+				<p>
+	               <span class="hide">This summary reflects</span> <span class="block" class="ui-widget-content">There is currently a struggle between indigenous groups and real estate developers in West Berkeley.</span> <span class="hide">a completed cultural resources inventory</span> <span class="block">West Berkeley was a significant settlement area for several indigenous groups.</span> <span class="hide">in West Berkeley proposed for streetscape, parking, and rail stop improvements. The inventory was conducted to provide the City of Berkeley (City) with data</span> <span class="block">The tribes that lived here had been established for several thousand years before being disturbed by European settlers.</span> <span class="hide">The inventory included background research and a program of subsurface geoarchaeological coring.</span> <span class="block">While four distinct groups lived in the Berkeley coastal area, they have now come to be collectively called the Ohlone people.</span>
+				</p>
+				<p>
+	               <span class="hide">One cultural resource, the West Berkeley Shellmound,</span> <span class="block">The site of the oldest and largest Ohlone village around the shores of San Francisco Bay is the proposed site of a five-story condominium and retail complex in West Berkeley.</span> <span class="block">The West Berkeley Shellmound was once a gently rounded hill formed from accumulated layers of organic material deposited over generations by native coastal dwellers.</span> <span class="hide">is eligible for listing in the National Register of Historic Places</span> <span class="block">Shellmounds were often the sites of burials and spiritual ceremonies. Even though many have been flattened, paved over and built on top of, there are still centuries worth of accumulated cultural artifacts buried deep in the ground where these mounds once were.</span>
+				</p>
+				<p> 
+	               <span class="block">Preserving shellmounds has proven to be a contentious issue among developers, indigenous rights groups, preservationists, and local governments in the Bay Area.</span> <span class="hide">project proposed includes modifications to the streetscape</span> <span class="block">While many Bay Area shellmounds are covered by housing developments and shopping complexes, the West Berkeley shellmound site is relatively accessible because it is covered by a single layer of pavement.</span> <span class="hide">These modifications</span> <span class="block">However, developer pressure has mounted in recent years, with major proposals in 2016 and 2017.</span> <span class="hide">would include subsurface disturbance. If such disturbance extended into cultural deposits, a significant impact would result. Such impacts can be avoided by limiting the depth of ground disturbance</span> <span class="block">Developers have tried to claim that the shellmound location is actually in a different place than the proposed building site, and that building would not cause any damage to the cultural site.</span> <span class="hide">If, however, cultural deposits cannot be avoided, the significant impact can be reduced to a less-than-significant level by implementing five mitigation measures that include archaeological data collection, Native American consultation, collections management, historical research, and commemoration. </span>
+				</p>
+
+			</div>
+			
+
+		</div>	
+
+		<div>
+		<button id="hide">Excavate</button>
+		<button id="show">Conceal</button>
+		</div>
+	<!-- <div id="droppable" class="ui-widget-header">
+			<p>I only accept Blue Border!</p>
+		</div>
+
+		<div id="blue-border-draggable" class="blue-border" class="ui-widget-content">
+			<p>Blue Border!</p>
+		</div> -->
+		
+
+	</div>
+	</body>
+</html>
