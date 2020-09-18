@@ -1,0 +1,296 @@
+* {
+	/*box-sizing: border-box;*/
+}
+
+body{
+
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+h1{
+	margin: 20px;
+	font-size: 3em;
+	font-style: bold;
+	margin-top: 60px;
+}
+
+.main{
+	width: 80%;
+	margin: 100px auto;
+	padding: 50px;
+}
+
+.sketchThumbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.sketchThumbs img {
+  max-height: 150px;
+  min-height: 75px;
+}
+
+ul{
+	list-style: none;
+}
+ 
+ul li{
+	color: #dadada;
+}
+
+a:link{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/*Clicks!*/
+
+#click1 {
+  width: 0;
+  height: 0;
+  border-top: 80px dotted #0000ff;  
+  border-right: 80px dotted #ff9900;
+  margin: 10px;
+  padding: 0;
+  z-index:1;
+  background-color: #0000ff;
+}
+
+/*
+#click1:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}*/
+
+#click2 {
+  width: 0;
+  height: 0;
+  border-top: 80px dotted #0000ff;  
+  border-right: 80px dotted #ff9900;
+  margin: 10px;
+  padding: 0;
+  background-color: #ff9900;
+  z-index:1;
+}
+
+/*
+#click2:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}*/
+
+
+
+#click3 {
+  width: 0;
+  height: 0;
+  border-top: 80px dotted #0000ff;  
+  border-right: 80px dotted #ff9900;
+  margin: 10px;
+  padding: 0;
+  animation-name: colorchange-patterntwo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  z-index:1;
+}
+
+
+/*
+#click3:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}*/
+
+
+#click4 {
+  width: 0;
+  height: 0;
+  border-top: 80px dotted #0000ff;  
+  border-right: 80px dotted #ff9900;
+  margin: 10px;
+  padding: 0;
+  animation-name: colorchange-patterntwo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  z-index:1;
+}
+
+/*
+#click4:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+*/
+
+
+
+#click5 {
+  width: 0;
+  height: 0;
+  border-top: 80px dotted #0000ff;  
+  border-right: 80px dotted #ff9900;
+  margin: 10px;
+  padding: 0;
+  background-color:white;
+}
+
+/*
+#click5:hover {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}*/
+
+
+
+/*Defines the Circles!*/
+
+  .triangle-topleft{
+        width: 0;
+        height: 0;
+        border-top: 80px dotted #0000ff;  
+        border-right: 80px dotted #ff9900;
+        margin: 10px;
+        padding: 0;
+        z-index:1;
+      }
+
+
+  .triangle-topleft:hover {
+        width: 0;
+        height: 0;
+        border-top: 90px /*80px*/ dotted #ff9900; 
+        border-right: 90px /*80px*/ dotted #0000ff; 
+        margin: 0/*10px*/;
+        padding: 0;
+        z-index:1;
+      }
+
+      .triangle-topleft-under {
+        width: 0;
+        height: 0;
+        border-top: 80px dotted #0000ff; 
+        border-right: 80px dotted #ff9900; 
+        margin: 10px;
+        mix-blend-mode: soft-light;
+      }
+
+      .triangle-topleft-under:hover {
+        width: 0;
+        height: 0;
+        border-top: 90px /*80px*/ dotted #ff9900; 
+        border-right: 90px /*80px*/ dotted #0000ff; 
+        margin: 0/*10px*/;
+        padding: 0;
+        mix-blend-mode: soft-light;
+      }
+
+    
+
+/*Defines the Backgrounds!*/
+
+@keyframes colorchange-patterntwo {
+  0%   {background-color: white;}
+  25%  {background-color: #0000ff;}
+  50%  {background-color: white;}
+  75% {background-color: #ff9900;}
+  100% {background-color: white;}
+}
+
+
+ #pattern1-background {
+      background-color:white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 3000px;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow-y:hidden;
+}
+
+#pattern3-background {
+      background-color: #0000ff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 3000px;
+      justify-content: center;
+      position: absolute;
+      top: 3000px;
+      left: 0;
+      overflow-y:hidden;
+}
+
+#pattern4-background {
+      background-color: #ff9900;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 3000px;
+      justify-content: center;
+      position: absolute;
+      top: 6000px;
+      left: 0;
+      overflow-y:hidden;
+}
+
+  #pattern2-background {
+      animation-name: colorchange-patterntwo;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 3000px;
+      justify-content: center;
+      position: absolute;
+      top: 9000px;
+      left: 0;
+      overflow-y:hidden;
+}
+
+ #pattern5-background {
+      animation-name: colorchange-patterntwo;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 3000px;
+      justify-content: center;
+      position: absolute;
+      top: 12000px;
+      left: 0;
+      overflow-y:hidden;
+}
+
+    
